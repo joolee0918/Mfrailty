@@ -1,0 +1,15 @@
+Package: Mfrailty
+Title: Dependence multivariate random effects model via gaussian copula functions
+Version: 0.1
+Authors: Jooyoung Lee and Richard J. Cook
+Description: Maximum likelihood estimation for a multivariate mixed-Poisson model with the dependence by type-specific random effects via copula functions. The Expectiation-Maximaization algorithm is used for semiparametric model. Frailty distributions including the gamma, and log-normal are supported, and Gaussian copula function is supported for dependence modeling. Parametric model is also supported including exponential, weibull model.   
+Depends: R (>= 3.3.2), survival, eha
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: yes
+LinkingTo: Rcpp
+Imports: Rcpp, Matrix, copula, eha, parallel,
+        survival
+RoxygenNote: 6.1.1
+Packaged: 2019-04-02 20:54:52 UTC; j463lee
